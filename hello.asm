@@ -5,10 +5,10 @@ section .text
 global _start
 
 _start:
-mov rax, 1
-mov rdi, 1
+mov rax, 0x1
+mov rdi, 0x1
 mov rsi, text
-mov rdx, 14
+mov rdx, 0xE
 syscall
 
 mov rax, 0x3c
